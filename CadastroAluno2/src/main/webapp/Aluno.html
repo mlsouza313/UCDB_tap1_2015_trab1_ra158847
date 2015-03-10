@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="AlunoController" method="post">
+		<h1>Cadastro de Aluno</h1>
+
+		<br> <label> Nome: </label> <input type="text" name="nome" /> <br>
+		<br> <label> RG: </label> <input type="text" name="rg" /> <br>
+		<br> <label> CPF: </label> <input type="text" name="cpf" /> <br>
+		<br> Sexo:<input name="sexo" type="radio" value="M">Masculino
+		<input name="sexo" type="radio" value="F">Feminino  <br>
+		<select name="estado">
+			<option value="Mato Grosso do Sul">MS</option>
+			<option value="Distrito Federal">DF</option>
+			<option value="Sao Paulo">SP</option>
+			<option value="Rio de Janeiro">RJ</option>
+			<option value="Pernambuco">PE</option>
+			<option value="Amazonas">AM</option>
+		</select> <br> <br>
+		<input type="submit" value="salvar">
+	</form>
+</body>
+</html>
